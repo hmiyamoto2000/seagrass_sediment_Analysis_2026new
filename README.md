@@ -5,8 +5,8 @@ This website only shows the codes, and the csvfile for analysis is assumed to be
  Table S: Supplementary Table
 1. Figs_1a_and_S1 (including the informations for Fig.S1)
    (raw_data)
-   area306_Sagamiwan_1982.csv / area319_Notokita_1982.csv / area508_Akiiyonada_2016.csv / area509_Seouchichuou_2016.csv /
-   area518_Bungosuidounanbu_1982.csv / area602_Genkainada_1982.csv
+   area306_Sagamiwan_1982.csv / area319_Notokita.csv / area508_Akiiyonada.csv / area509_Seouchichuou.csv /
+   area518_Bungosuidounanbu.csv / area602_Genkainada.csv
    (code)
    Time_course_graph_final.py
    
