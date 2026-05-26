@@ -85,4 +85,5 @@ tables.
 - Python code: tested with Python 3.10.
 - R code: requires the libraries declared at the top of each `.R` file (e.g. `vegan`, `lavaan`, `lightgbm`, `xgboost`, `randomForest`, `arules`).
 - Python plots use Helvetica by default and fall back to Arial if unavailable.
-
+- Analysis scripts in this repository were developed with the assistance of Claude (Anthropic). All code was critically reviewed, tested, and validated by H.Miyamoto.
+  
