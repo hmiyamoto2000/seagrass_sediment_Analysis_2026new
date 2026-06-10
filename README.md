@@ -94,7 +94,7 @@ tables.
 | Script | Generates |
 |---|---|
 | `SEM_Figure_505_collective_v10.R` | Fig. 6c (collective SEM architecture) |
-| `Fig7c_crossvalidation_summary.R` | Fig. 6c right inset (CV4 / CV8 / LORO AUC, Brier) |
+| `Fig6c_crossvalidation_summary.R` | Fig. 6c right inset (CV4 / CV8 / LORO AUC, Brier) |
 | `phase9_recalc_strict505_final.R` | 697→505 re-filtering (TLI ≥ 0.95 & AGFI ≥ 0.95); writes `phase9_downstream_path_summary_strict505.csv` and `phase9_sr_path_summary_strict505.csv` |
 | `Supp_Fig_S20_Figure_k_diminishing_returns_v6_modified.R` | Fig. S20 (378,018→505 filtering, diminishing returns) |
 | `Supp_Fig_S21.R` | Fig. S21 (filter stringency) |
@@ -120,7 +120,7 @@ tables.
 - `phase0_sr_equations.csv`
 - `phase6e_full_validation_v2.csv`
 - `phase7_universal_candidates.csv`  (697 candidates; input to the 697→505 re-filter — do not delete)
-- `phase9_downstream_path_summary_strict505.csv`  (505; downstream path values shown in Fig. 7c)
+- `phase9_downstream_path_summary_strict505.csv`  (505; downstream path values shown in Fig. 6c)
 - `phase9_sr_path_summary_strict505.csv`  (505; upstream SR_score1/SR_score2 values, +0.81 / +0.28)
 - `S18_scenario_counts.csv`
 
