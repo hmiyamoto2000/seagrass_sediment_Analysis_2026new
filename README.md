@@ -21,7 +21,7 @@ tables.
 | `Fig2a_S6.zip` | Fig. 2, Fig. S6 | — |
 | `Fig3_S13_S16.zip` | Fig. 3, Fig. S13, Fig. S16 | Table S3 |
 | `FigS16a.zip` / `FigS16b.zip` | Fig. S16a, Fig. S16b | — |
-| `Fig4_Fig5.zip` | Fig. 4, Fig. 5 | — |
+| `Fig4a_Fig5b.zip、Fig4a_Fig5b.zip` | Fig. 4, Fig. 5 | — |
 | `Fig6c_S20_S21_S22_S23_S24.zip` | Fig. 6c, Fig. S20–S24 | Table S4, Table S5 |
 | `FigS9_S10.zip` | Fig. S9, S10 | Table S1, Table S2 |
 | `FigS11.zip` | Fig. S11 | — |
