@@ -44,31 +44,30 @@ tables.
 **Fig. 1** — Satellite characterisation of seagrass-bearing waters in four Japanese oceanographic regions.
 **Fig. 2** — Study regions with seagrass meadows in Japan.
 **Fig. 3** — Energy landscape analysis of the symbiotic candidate feature components in marine sediments.
-**Fig. 4** — Distance-based RDA of symbiotic bacterial and eukaryotic communities and their relationships with sediment chemistry.
-**Fig. 5** — Assessment of the **biome** feature in marine sediments.
-**Fig. 6** — Assessment of the **chemical** feature in marine sediments.
-**Fig. 7** — Symbolic regression and collective structural equation model of seagrass-sediment holobiont components.
-**Fig. 8** — Conceptual model of seagrass sediment holobiont–chemical coupling and coastal ecosystem stability.
+**Fig. 4** — Assessment of the **biome** feature in marine sediments.
+**Fig. 5** — Assessment of the **chemical** feature in marine sediments.
+**Fig. 6** — Symbolic regression and collective structural equation model of seagrass-sediment holobiont components.
+**Fig. 7** — Conceptual model of seagrass sediment holobiont–chemical coupling and coastal ecosystem stability.
 
 **Fig. S1** — Annual comparison of bloom frequency, sediment variability, and SST at satellite-surveyed sites.
 **Fig. S2** — Reduced temperature sensitivity of water quality at study sites stratified by CHLA baseline.
 **Fig. S3** — Unstratified comparison of temperature sensitivity (necessity of CHLA baseline stratification).
-**Fig. S4** — CDOM and PAR at study sites vs. other Japanese coastal sites.
+**Fig. S4** — Dissolved organic matter and photosynthetically active radiation at study sites compared with other Japanese coastal sites.
 **Fig. S5** — Satellite characterisation of Ariake Bay as a within-region test of the seagrass effect.
 **Fig. S6** — Temperature of the adjacent waters surveyed in this study.
-**Fig. S7** — Analysis workflow.
-**Fig. S8** — Sediment / sampling-method photographs.
-**Fig. S9** — Symbiotic bacterial diversity in the marine sediment.
-**Fig. S10** — Symbiotic eukaryotic diversity in the marine sediment.
-**Fig. S11** — NMDS of symbiotic bacterial and eukaryotic diversity.
-**Fig. S12** — Relative abundance of bacterial and eukaryotic populations.
-**Fig. S13** — Difference-in-differences for symbiotic bacterial families (D_4 level).
-**Fig. S14** — Difference-in-differences for symbiotic eukaryotes (D_4 level).
-**Fig. S15** — Cross-kingdom dbRDA and variation partitioning of bacterial and eukaryotic communities.
-**Fig. S16** — Feature selection using four machine-learning approaches (AA, Random Forest, XGBoost, LightGBM).
-**Fig. S17** — Difference-in-differences for the chemical indices.
-**Fig. S18** — Feature selection based on stochastic symbolic regression.
-**Fig. S19** — Stochastic SR variable-selection frequency.
+**Fig. S7** — The marine sediments surveyed in this study.
+**Fig. S8** — Custom sampling methods for sampling in this study.
+**Fig. S9** — Workflow for evaluation of biome-chemical network in the study sites.
+**Fig. S10** — Symbiotic bacterial diversity in the marine sediment.
+**Fig. S11** — Symbiotic eukaryotic diversity in the marine sediment.
+**Fig. S12** — NMDS of symbiotic bacterial and eukaryotic diversity.
+**Fig. S13** — Relative abundance of bacterial and eukaryotic populations.
+**Fig. S14** — Difference-in-differences for symbiotic bacterial families (D_4 level).
+**Fig. S15** — Difference-in-differences for symbiotic eukaryotes (D_4 level).
+**Fig. S16** — Difference-in-differences for the chemical indices.
+**Fig. S17** — dbRDA of seagrass sediment bacterial and eukaryotic communities and their relationships with sediment chemistry.
+**Fig. S18** — Feature selection using four machine-learning approaches (AA, Random Forest, XGBoost, LightGBM).
+**Fig. S19** — Selection of seagrass sediment feature biome and chemical components based on stochastic symbolic regression.
 **Fig. S20** — Filtering of 378,018 candidate SEM models down to 505 universal models reveals diminishing returns of model complexity.
 **Fig. S21** — Filter stringency at the SEM enumeration step.
 **Fig. S22** — Composition of symbolic regression (SR) pairs across 505 universal SEM models.
@@ -89,13 +88,13 @@ tables.
 
 ---
 
-## SEM analysis zip — `Fig7c_S20_S21_S22_S23_S24.zip`
+## SEM analysis zip — `Fig6c_S20_S21_S22_S23_S24.zip`
 
 **`Code/`**
 | Script | Generates |
 |---|---|
-| `SEM_Figure_505_collective_v10.R` | Fig. 7c (collective SEM architecture) |
-| `Fig7c_crossvalidation_summary.R` | Fig. 7c right inset (CV4 / CV8 / LORO AUC, Brier) |
+| `SEM_Figure_505_collective_v10.R` | Fig. 6c (collective SEM architecture) |
+| `Fig7c_crossvalidation_summary.R` | Fig. 6c right inset (CV4 / CV8 / LORO AUC, Brier) |
 | `phase9_recalc_strict505_final.R` | 697→505 re-filtering (TLI ≥ 0.95 & AGFI ≥ 0.95); writes `phase9_downstream_path_summary_strict505.csv` and `phase9_sr_path_summary_strict505.csv` |
 | `Supp_Fig_S20_Figure_k_diminishing_returns_v6_modified.R` | Fig. S20 (378,018→505 filtering, diminishing returns) |
 | `Supp_Fig_S21.R` | Fig. S21 (filter stringency) |
