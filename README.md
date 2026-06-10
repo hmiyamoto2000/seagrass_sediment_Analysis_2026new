@@ -88,7 +88,7 @@ tables.
 
 ---
 
-## SEM analysis zip — `Fig6c_S20_S21_S22_S23_S24.zip`
+## SEM analysis zip — `Fig6c_S20_S23.zip`
 
 **`Code/`**
 | Script | Generates |
