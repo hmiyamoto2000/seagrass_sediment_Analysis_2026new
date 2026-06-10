@@ -19,7 +19,7 @@ tables.
 |---|---|---|
 | `Fig1_S1_S5.zip` | Fig. 1, Fig. S1–S5 | — |
 | `Fig2a_S6.zip` | Fig. 2, Fig. S6 | — |
-| `Fig3_S13_S16.zip` | Fig. 3, Fig. S13, Fig. S16 | Table S3 |
+| `Fig3.zip` | Fig. 3 | — |
 | `FigS16a.zip` / `FigS16b.zip` | Fig. S16a, Fig. S16b | — |
 | `Fig4a_Fig5a.zip` / `Fig4b_Fig5b.zip` | Fig. 4, Fig. 5 | — |
 | `Fig6c_S20_S21_S22_S23_S24.zip` | Fig. 6c, Fig. S20–S24 | Table S4, Table S5 |
