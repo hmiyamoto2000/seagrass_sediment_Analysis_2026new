@@ -17,7 +17,7 @@ tables.
 
 | Zip | Figures | Tables |
 |---|---|---|
-| `Fig1_S1_S6.zip` | Fig. 1, Fig. S2–S6 | — |
+| `Fig1_S1_S6.zip` | Fig. 1, Fig. S1–S6 | — |
 | `Fig2a_S7.zip` | Fig. 2, Fig. S7 | — |
 | `Fig3.zip` | Fig. 3| — |
 | `Fig4a_5a.zip` / `Fig4b_5b.zip` | Fig. 4, Fig. 5 | — |
