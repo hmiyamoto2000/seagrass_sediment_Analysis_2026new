@@ -22,7 +22,7 @@ tables.
 | `Fig3.zip` | Fig. 3| — |
 | `Fig4a_5a.zip` / `Fig4b_5b.zip` | Fig. 4, Fig. 5 | — |
 | `Fig6a.zip` / `Fig6b.zip` | Fig. 6a, Fig. 6b | — |
-| `Fig6c_S21_S24.zip` | Fig. 7c, Fig. S21–S25 | Table S4, Table S5 |
+| `Fig6c_S21_S25.zip` | Fig. 6c, Fig. S21–S25 | Table S4, Table S5 |
 | `FigS11_S13.zip` | Fig. S11, S12, S13 | Table S1, Table S2 |
 | `FigS14.zip` | Fig. S14 | — |
 | `FigS15_S16.zip` | Fig. S15, S16 | — |
@@ -30,7 +30,7 @@ tables.
 | `FigS18.zip` | Fig. S18 | — |
 | `FigS19.zip` | Fig. S19 | — |
 | `FigS20.zip` | Fig. S20 | — |
-| `FigS25.zip` | Fig. S25 | — |
+| `FigS26.zip` | Fig. S26 | — |
 
 **No code / data (figure itself is the content):
 ** Fig.8 (conceptual image).
@@ -73,7 +73,8 @@ tables.
 **Fig. S22** — Filter stringency at the SEM enumeration step.
 **Fig. S23** — Composition of symbolic regression (SR) pairs across 505 universal SEM models.
 **Fig. S24** — Robustness of the holobiont network across fit-criteria stringency.
-**Fig. S25** — Profiling of key negative eukaryotes in a collective SEM model.
+**Fig. S25** — Full collective SEM architecture underlying Fig6c.
+**Fig. S26** — Profiling of key negative eukaryotes in a collective SEM model.
 
 *(If S8/S9 split differs in the final manuscript, adjust S8–S10 accordingly; the SEM block S21–S25 is fixed as above.)*
 
@@ -94,13 +95,15 @@ tables.
 **`Code/`**
 | Script | Generates |
 |---|---|
-| `SEM_Figure_505_collective_v10.R` | Fig. 6c (collective SEM architecture) |
-| `Fig6c_crossvalidation_summary.R` | Fig. 6c right inset (CV4 / CV8 / LORO AUC, Brier) |
+| `SEM_Figure_505_collective_v10.R` | Figs. 6c and S25 (collective SEM architecture) |
+| `Fig6c_main_simplified (1).R` | Fig. 6c (collective SEM visualization <simple version>) |
+| `Supp_Fig_S25_crossvalidation_summary.R` | Figs. 6c and S25 right inset (CV4 / CV8 / LORO AUC, Brier) |
 | `phase9_recalc_strict505_final.R` | 697→505 re-filtering (TLI ≥ 0.95 & AGFI ≥ 0.95); writes `phase9_downstream_path_summary_strict505.csv` and `phase9_sr_path_summary_strict505.csv` |
 | `Supp_Fig_S21_Figure_k_diminishing_returns_v6_modified.R` | Fig. S21 (378,018→505 filtering, diminishing returns) |
 | `Supp_Fig_S22.R` | Fig. S22 (filter stringency) |
 | `Supp_Fig_S23_SR_pair_composition.R` | Fig. S23 (SR pair composition) |
 | `Supp_Fig_S24.R` | Fig. S24 (robustness across stringency) |
+| `Supp_Fig_S25_SEM_505_full_supplementary_name.R` | Fig. S25 (collective SEM visualization) |
 
 **`Seagrass_SEM_code/`** — SEM pipeline (Stage α/β/γ; phase0–phase6e), unchanged from earlier release.
 
