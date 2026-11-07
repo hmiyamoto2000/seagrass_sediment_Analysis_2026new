@@ -31,7 +31,7 @@ tables.
 | `Fig4a_5a.zip` / `Fig4b_5b.zip` | Fig. 4, Fig. 5 | Table S3 |
 | `Fig6a.zip` / `Fig6b.zip` | Fig. 6a, Fig. 6b | — |
 | `Fig6c_S21_S25.zip` | Fig. 6c, Fig. S21–S25 | Table S4, Table S5 |
-| `TableS6__saiki_sensitivity.zip` | — | Table S6 |
+| `TableS6_saiki_sensitivity.zip` | — | Table S6 |
 | `TableS7_Desulfobulbaceae_genus.zip` | — | Table S7 |
 | `FigS10_S13.zip` | Fig. S11, S12, S13 | Table S1, Table S2 |
 | `FigS14.zip` | Fig. S14 | — |
@@ -165,7 +165,7 @@ Plus input CSVs for Tables S4/S5 (place in the same folder as the table scripts)
 
 ---
 
-## Site-balance sensitivity zip — `TableS6__saiki_sensitivity.zip`
+## Site-balance sensitivity zip — `TableS6_saiki_sensitivity.zip`
 
 Tests whether each of the four SEM downstream hubs (Desulfobulbaceae,
 Corallinophycidae, Intramacronucleata, Diatomea) keeps its regional
